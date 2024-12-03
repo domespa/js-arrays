@@ -27,6 +27,13 @@ const longNames = [];
 
 // 3. Rimuovi 'Ed' dall'array teachers
 
+// SOL.1
+
 const withoutEd = teachers.filter(teachers => teachers !== 'Ed');
 console.log(withoutEd)
+
+// SOL.2
+
+teachers.splice(5, 1)
+console.log(teachers)
 
